@@ -32,12 +32,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 #crDroid flags
 IS_PHONE := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_BUILD_APERTURE_CAMERA := true
-TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_SUPPORTS_BLUR := true
 
@@ -45,7 +41,7 @@ TARGET_SUPPORTS_BLUR := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_beyond0lte
+PRODUCT_NAME := crdroid_beyond0lte
 PRODUCT_DEVICE := beyond0lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G970F
